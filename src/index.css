@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code, pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  max-height: 44px;
+}
+
+button:active {
+  background-color: #EEE;
+}
+
+label {
+  height: 16px;
+  font-size: 14px;
+}
+
+input, select, button {
+  border: 1px solid #AAA;
+  cursor: pointer;
+  padding: 1em;
+}
+
+input {
+  cursor: text;
+}
+
+input[type=radio] {
+  cursor: pointer;
+}
+
+input:hover, select:hover, button:hover {
+  border: 1px solid #555;
+}
