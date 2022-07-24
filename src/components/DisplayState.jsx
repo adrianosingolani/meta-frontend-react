@@ -19,8 +19,6 @@ function DisplayState() {
     const pagamentoState = useSelector((state) => state.pagamento);
 
     const { submitted, metodo, cpf, ...otherPagamentoProperties } = pagamentoState;
-    console.log(pagamentoState);
-    console.log(otherPagamentoProperties);
 
     if (metodo === 'cartao') {
       return {
